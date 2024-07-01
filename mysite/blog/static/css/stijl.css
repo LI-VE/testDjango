@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header,
+.footer {
+    background-color: orange;
+    color: black;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.header {
+    flex: 0 0 auto;
+    text-align: left;
+    height: 150px;
+}
+
+h1 {
+    padding: 30px;
+}
+
+.main {
+    flex: 1 0 auto;
+    padding: 20px;
+    text-align: left;
+    background-color: darkred;
+}
+
+.post {
+    background-color: pink;
+    border: solid white;
+    width: 450px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 2px 20px;
+    line-height: 1.4;
+
+}
+
+.date {
+    font-size: small;
+}
+
+a {
+    color: orange;
+    font-size: large;
+}
+
+p {
+    font-size: small;
+}
+
+.footer {
+    flex: 0 0 auto;
+    height: 75px;
+}
