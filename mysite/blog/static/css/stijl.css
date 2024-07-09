@@ -4,63 +4,68 @@
     box-sizing: border-box;
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
 
-.header,
-.footer {
+header,
+footer {
     background-color: orange;
     color: black;
-    padding: 20px;
+    width: 100%;
     font-family: Arial, Helvetica, sans-serif;
+    height: 100px;
+
 
 }
 
-.header {
+header {
     flex: 0 0 auto;
     text-align: left;
     height: 150px;
+    margin-bottom: 20px;
+
 }
 
-h1 {
-    padding: 30px;
+footer {
+    margin-top: 30px;
 }
 
-.main {
-    flex: 1 0 auto;
-    padding: 20px;
-    text-align: left;
-    background-color: darkred;
-}
 
 .post {
     background-color: pink;
     border: solid white;
-    width: 450px;
+    width: 400px;
     margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 5px 2px 20px;
+    padding: 5px 5px 20px;
     line-height: 1.4;
-
+    margin-bottom: 10px;
 }
 
 .date {
     font-size: small;
 }
 
-a {
-    color: orange;
+.top-menu {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 200px;
     font-size: large;
+
 }
 
-p {
-    font-size: small;
+body {
+    background-color: darkred;
+    color: black;
 }
 
-.footer {
-    flex: 0 0 auto;
-    height: 75px;
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+    text-align: left;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+
 }
